@@ -1,12 +1,13 @@
 import app from './server.js';
 import mongodb from 'mongodb';
-import dotenv from 'dotenv';
+import dotenv from 'dotenv'
 import ReviewsDAO from './dao/reviewsDAO.js'
 
-dotenv.config();
+dotenv.config()
 
 const MongoClient = mongodb.MongoClient;
-const uri = process.env.API_KEY
+const uri = process.env.MONGODB_URI
+
 const port = 8000;
 
 MongoClient.connect(uri).catch(err => {
