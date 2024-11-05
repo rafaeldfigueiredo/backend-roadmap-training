@@ -6,3 +6,4 @@ Following lessons from Freecodecamp
 - [x] Python Basics
 - [x] Django Basics
 - [x] Git Basics
+- [x] SQL Basics
